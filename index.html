@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Logica para conducir un Vehiculo">
+    <meta name="keywords" content="Vehiculo, JavaScript, Conducir, Logica">
+    <meta name="author" content="Daniel Fernando Yépez Vélez">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aprendiendo a Conducir</title>
+    <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body id="cuerpo">
+    <main class="main-position">
+        <section>
+            <div class="group-direction1">
+                <button class="botones" id="encender">Encender Vehiculo</button>
+                <button id="apagar">Apagar Vehiculo</button>
+            </div>
+
+            <div class="group-direction2">
+                <!-- <button id="adelante">Adelante</button> -->
+                <button id="izquierda">Izquierda</button>
+                <button id="derecha">Derecha</button>
+                <!-- <button id="reversar">Reversar</button> -->
+            </div>
+
+            <div class="group-direction3">
+                <button id="estacionarias">Estacionarias</button>
+            </div>
+
+            <div class="group-direction4">
+                <button id="clouch">Clouch</button>
+                <button id="freno">Freno</button>
+                <button id="arranque">Acelerador</button>
+            </div>
+
+            <div class="group-direction5">
+                <button id="neutra">N</button>
+                <button id="primera">1</button>
+                <button id="segunda">2</button>
+                <button id="tercera">3</button>
+                <button id="cuarta">4</button>
+                <button id="quinta">5</button>
+                <button id="sexta">6</button>
+                <!-- <button id="reversa">R</button> -->
+            </div>
+
+            <div class="group-direction6">
+                <button id="frenoDeMano">Freno De Mano</button>
+            </div>
+        </section>
+        <section class="imgCenter">
+            <figure>
+                <img src="./img/interiorJeep.jpg" width="70.5%" height="600vh" alt="Interior Vehiculo">
+            </figure>
+        </section>
+    </main>
+    <aside id="aside">
+        <section class="barraLateral">
+        </section>
+        <section class="barraLateral">
+        </section>
+        <section class="barraLateral">
+            <p id="conteo">
+                <strong> Tiempo: </strong>
+                <span id="minutos">0</span>:<span id="segundos">0</span> <br>
+                <strong> Distancia: </strong>
+                <span id="distancia">60</span>
+                <br> <strong> Velocidad: </strong>
+                <span id="velocidad"></span>
+            </p>
+        </section>
+    </aside>
+    <script src="./js/VehiculoAutonomo.js"></script>
+</body>
+
+</html>

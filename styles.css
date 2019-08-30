@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.main-position {
+    position: relative;
+    width: 80%;
+}
+
+figure {
+    width: 141.8%;
+}
+
+.group-direction1 {
+    position: absolute;
+    bottom: 78%;
+    left: 66.5%;
+}
+
+.group-direction2 {
+    position: absolute;
+    bottom: 57%;
+    left: 40.5%;
+}
+
+.group-direction3 {
+    position: absolute;
+    bottom: 54%;
+    left: 78%;
+}
+
+.group-direction4 {
+    position: absolute;
+    bottom: 21%;
+    left: 39%;
+}
+
+.group-direction5 {
+    position: absolute;
+    bottom: 30%;
+    left: 75%;
+}
+
+.group-direction6 {
+    position: absolute;
+    bottom: 10.5%;
+    left: 68%;
+}
+
+aside {
+    border: 1px solid red;
+    width: 68%;
+    height: 100vh;
+    display: flex;
+}
+
+.barraLateral {
+    border: 1px solid black;
+    width: 50%;
+}
+
+.iluminacion {
+    background-color: black;
+    color: green;
+}
+
+.bodyCuerpo {
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    opacity: 0.3;
+}
+
+.tiempo {
+    display: none;
+}
